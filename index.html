@@ -25,7 +25,7 @@
   font-family: Comfortaa;
   text-indent: 50px;
   letter-spacing: 4px;
-  font-size: 15px;
+  font-size: 16px;
 }
 .title{
   text-align: center;
@@ -39,6 +39,9 @@
   text-indent: 50px;
   letter-spacing: 4px;
   font-size: 10px;
+}
+.standings{
+  color: white;
 }
 body {
   background-image: url("http://backgroundcheckall.com/wp-content/uploads/2017/12/retro-space-background-8.jpg");
@@ -75,6 +78,23 @@ Welcome! This is your place to find all information about the Bostick Maelstrom 
 <br>
 Since the competition isn't even totally confirmed yet, we don't have any information about who will be competing or if we even want to do it. We'll be putting a bracket up here and have an area for highscores though.
 </p1>
+<table style="width:100%" class="standings">
+  <tr>
+    <th>Name</th>
+    <th>Round Reached</th> 
+    <th>Score</th>
+  </tr>
+  <tr>
+    <td>Mr. Bostick</td>
+    <td>who knows</td> 
+    <td>who knows</td>
+  </tr>
+  <tr>
+    <td>Kyle Wu(unofficial)</td>
+    <td>8</td> 
+    <td>87950</td>
+  </tr>
+</table>
 
   
   <script>
@@ -82,7 +102,7 @@ Since the competition isn't even totally confirmed yet, we don't have any inform
     if (window.parent && window.parent.parent){
       window.parent.parent.postMessage(["resultsFrame", {
         height: document.body.getBoundingClientRect().height,
-        slug: "Leu49a7b"
+        slug: ""
       }], "*")
     }
   </script>
